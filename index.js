@@ -34,7 +34,7 @@ client.on('ready', async () => {
     .setAssetsLargeText('owner') //Text when you hover the Large image
     .setAssetsSmallImage('https://cdn.discordapp.com/attachments/1038784017203470408/1142604358966595674/IMG_2358.gif') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('???') //Text when you hover the Small image
-    .addButton('law', 'https://open.spotify.com/playlist/6Sp4mJ1YZomb4GvMxHiRhs?si=rRo158CPRBSK79y_S_ndhg')
+    .addButton('law', 'https://discord.com/')
     .addButton('selfish', 'https://e-z.bio/selfish');
 
   client.user.setActivity(r);
