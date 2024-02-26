@@ -30,9 +30,9 @@ client.on('ready', async () => {
     .setName('for 2.867 viewers')
     .setDetails(`for 2.867 viewers [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://media.discordapp.net/attachments/1038784017203470408/1139827258077483098/74A6B09B-8BA0-4CF5-9861-E5DCB24D0C61.gif?ex=656ae0db&is=65586bdb&hm=e72109ca3c196e96ae23645554f3e65f257459f6a5c4e8aca7310f3c0702ae49&=&width=449&height=243') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1038784017203470408/1210956243368288296/34.gif?ex=65ec71e2&is=65d9fce2&hm=e94d1620a5353851d23d54663c3aa7f7185af0dc82279f058f03c2e56c6b9e6e&') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('owner') //Text when you hover the Large image
-    .setAssetsSmallImage('https://cdn.discordapp.com/attachments/1038784017203470408/1142604358966595674/IMG_2358.gif') //You can put links in tenor or discord and etc.
+    .setAssetsSmallImage('https://cdn.discordapp.com/emojis/967776024811147295.gif?size=96&quality=lossless') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('???') //Text when you hover the Small image
     .addButton('law', 'https://discord.com/')
     .addButton('selfish', 'https://e-z.bio/selfish');
