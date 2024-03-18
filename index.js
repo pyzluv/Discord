@@ -27,8 +27,8 @@ client.on('ready', async () => {
     .setType('STREAMING')
     .setURL('https://www.twitch.tv/developer') //Must be a youtube video link 
     .setState('decay')
-    .setName('for 2.867 viewers')
-    .setDetails(`for 2.867 viewers [${formatTime()}]`)
+    .setName('gg./law')
+    .setDetails(`gg./law [${formatTime()}]`)
     .setStartTimestamp(Date.now())
  .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1038784017203470408/1210956243368288296/34.gif?ex=65fee6e2&is=65ec71e2&hm=ce4d2680634c515b625b2b760832154e7248d8c88aa1a378bff163116f7b29b3&') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('owner') //Text when you hover the Large image
@@ -44,7 +44,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `for 2.867 viewers [${newTime}]`;
+      const newDetails = `gg./law [${newTime}]`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
