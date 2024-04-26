@@ -30,7 +30,7 @@ client.on('ready', async () => {
     .setName('gg./law')
     .setDetails(`gg./law [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://media.discordapp.net/attachments/1038784017203470408/1231996102039834694/766bce29f40ff5faa9e21515674dcd42.gif?ex=6638fcc8&is=662687c8&hm=d20bcdc216b6fa24978b09d92a98139bf5a9b7fc1b7c940406a7691d636d16e2&=') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://media.discordapp.net/attachments/1038784017203470408/1231996102727696424/50ef9bf9eb1d5fb73be897e44509eb54.gif?ex=662d1f48&is=662bcdc8&hm=836f6607e62d50002d5097b1e886caaee465636aae9ee7d0129da1eef2f112da&=') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('owner') //Text when you hover the Large image
     .setAssetsSmallImage('https://cdn.discordapp.com/emojis/967776024811147295.gif?size=96&quality=lossless') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('???') //Text when you hover the Small image
